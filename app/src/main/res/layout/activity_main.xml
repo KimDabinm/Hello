@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <!--    match: 해당 뷰의 크기를 부모 계층의 뷰가 지정한 크기에 꽉 들어차게 자동으로 채워줌-->
+
+    <!--    wrap: 해당 뷰의 내용을 화면에 보이기 위한 적절한 크기를 계산해서 결정-->
+
+    <!--    직접 수치를 입력 100px-->
+    <!--    : 스마트폰의 크기가 일정하다면 직접 수치롤 크기를 지정해도 됨-->
+    <!--    -> 스마트폰 크기가 다양하다 보니 수치로 크기 지정하면 각각의 스마트폰 크기마다 대응하는 화면을 개발할 수 없음-->
+
+    <!--id: 뷰의 식별자 역할
+                레이아웃 xml에 등록하여 생성한 객체는 자바 코드에서 식별하기 위한 속성-->
+
+<!--    <Button-->
+<!--        android:id="@+id/btnbtn1"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:onClick="btnClick2"-->
+<!--        android:text="NAVER"-->
+<!--        app:backgroundTint="#A5C383"-->
+<!--        app:layout_constraintBottom_toBottomOf="parent"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintHorizontal_bias="0.498"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toTopOf="parent"-->
+<!--        app:layout_constraintVertical_bias="0.471" />-->
+
+<!--    <Button-->
+<!--        android:id="@+id/btnbtn1"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="CALL"-->
+<!--        android:onClick="btnClick3"-->
+<!--        app:backgroundTint="#B6D6DA"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        tools:layout_editor_absoluteY="215dp" />-->
+
+</androidx.constraintlayout.widget.ConstraintLayout>

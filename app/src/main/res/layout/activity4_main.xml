@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    scaleType==> 이미지뷰의 크기 조절을 위한 속성
+        -center : 원본 크기 그대로 이미지만 중앙으로 맞춤
+        -centerInside : 넓이와 높이 중 큰 것을 이미지의 비율에 맞게 줄임/ 가운데 정렬
+        -fitXY : 화면에 맞게 늘리거나 줄여줌 / 비율을 신경안씀
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scaleType="fitXY"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/guitar"
+        tools:layout_editor_absoluteY="131dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>

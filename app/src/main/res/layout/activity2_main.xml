@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- text : 화면에 출력할 문자열을 지정
+        textSize : 글자크기를 조절
+        textStyle : normal, bold(굵은 글씨), italic(기울임)
+        textColor : 문자열의 색상 #00D0000 -> 16진수 RGB
+        autoLink : 문자열 내부 분석해서 URL- 자동링크 형태로 출력
+        maxLines :  특정 줄까지만 출력
+        ellipsize : ... (줄임표시) end, start, middle 등
+    -->
+    <!-- * 크기를 표시하는 단위
+        px : 화면 픽셀의 수
+        dp : 밀도 독립적 픽셀 -> 뷰의 크기(어떤 장치를 쓰든 알아서 해상도에 맞춰서 인식)
+             ex) 1인치당 160개의 점이 있는 화면에서 1dp => 1px 와 같음
+                 1인치당 320개의 점이 있는 화면에서 1dp => 2px 와 같음
+
+        sp : 글자 크기(글꼴 설정에 따라서 글자 크기가 달라질 수 있다)
+    -->
+<!--
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="문자1dp"
+        android:textSize="50dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+-->
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/korea"
+        android:textColor="#2BB8AB"
+        android:textSize="15sp"
+        android:textStyle="italic | bold"
+        android:autoLink="web|phone"
+        android:maxLines="6"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.451" />
+</androidx.constraintlayout.widget.ConstraintLayout>

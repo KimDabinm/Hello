@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/apeach"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:onClick="onApeachBtnClicked"
+        android:text="어피치"
+        app:backgroundTint="#673AB7"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/muzi" />
+
+    <Button
+        android:id="@+id/muzi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="48dp"
+        android:onClick="onMuziBtnClicked"
+        android:text="무지"
+        app:backgroundTint="#A9673AB7"
+        app:layout_constraintEnd_toStartOf="@+id/lion"
+        app:layout_constraintHorizontal_bias="0.785"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/lion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="30dp"
+        android:onClick="onRyanBtnClicked"
+        android:text="라이언"
+        app:backgroundTint="#59673AB7"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/muzi" />
+
+    <ImageView
+        android:id="@+id/image1"
+        android:layout_width="179dp"
+        android:layout_height="250dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/muzi"
+        app:layout_constraintVertical_bias="0.368"
+        app:srcCompat="@drawable/apeach" />
+
+    <ImageButton
+        android:id="@+id/leftBtn"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="16dp"
+        android:padding="0dp"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/rightBtn"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/btn2" />
+
+    <ImageButton
+        android:id="@+id/rightBtn"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginEnd="16dp"
+        android:padding="0dp"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/btn1" />
+
+    <ImageView
+        android:id="@+id/image2"
+        android:layout_width="178dp"
+        android:layout_height="218dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.499"
+        app:srcCompat="@drawable/muzi" />
+
+    <ImageView
+        android:id="@+id/image3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.467"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.505"
+        app:srcCompat="@drawable/lion" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

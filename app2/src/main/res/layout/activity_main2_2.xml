@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!--layout_weight  속성
+        : 원하는 특정 비율로 맞추어 디바이스 크기에 상관없이 표현 가능함
+    -->
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="100dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="#E5E3C9" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="2"
+        android:background="#B4CFB0" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="3"
+        android:background="#94B49F" />
+</LinearLayout>

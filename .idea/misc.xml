@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/kj/AndroidStudioProjects/Hello/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.2838541666666667" />
+        <entry key="..\:/Users/kj/AndroidStudioProjects/Hello/app/src/main/res/drawable/button1.xml" value="0.3640625" />
+        <entry key="..\:/Users/kj/AndroidStudioProjects/Hello/app/src/main/res/drawable/button2.xml" value="0.35846153846153844" />
+        <entry key="..\:/Users/kj/AndroidStudioProjects/Hello/app/src/main/res/drawable/button3.xml" value="0.3640625" />
+        <entry key="..\:/Users/kj/AndroidStudioProjects/Hello/app/src/main/res/drawable/ic_launcher_foreground.xml" value="0.2838541666666667" />
+        <entry key="..\:/Users/kj/AndroidStudioProjects/Hello/app/src/main/res/layout/activity2_main.xml" value="0.33" />
+        <entry key="..\:/Users/kj/AndroidStudioProjects/Hello/app/src/main/res/layout/activity3_main.xml" value="0.36614583333333334" />
+        <entry key="..\:/Users/kj/AndroidStudioProjects/Hello/app/src/main/res/layout/activity4_main.xml" value="0.36614583333333334" />
+        <entry key="..\:/Users/kj/AndroidStudioProjects/Hello/app/src/main/res/layout/activity5_main.xml" value="0.33" />
+        <entry key="..\:/Users/kj/AndroidStudioProjects/Hello/app/src/main/res/layout/activity6_main.xml" value="0.34270833333333334" />
+        <entry key="..\:/Users/kj/AndroidStudioProjects/Hello/app/src/main/res/layout/activity7_main.xml" value="0.25" />
+        <entry key="..\:/Users/kj/AndroidStudioProjects/Hello/app/src/main/res/layout/activity_main.xml" value="0.36614583333333334" />
+        <entry key="..\:/Users/kj/AndroidStudioProjects/Hello/app/src/main/res/layout/activity_main10.xml" value="0.23645833333333333" />
+        <entry key="..\:/Users/kj/AndroidStudioProjects/Hello/app/src/main/res/layout/activity_main8.xml" value="0.33" />
+        <entry key="..\:/Users/kj/AndroidStudioProjects/Hello/app/src/main/res/layout/activity_main_activity10_view1.xml" value="0.3234375" />
+        <entry key="..\:/Users/kj/AndroidStudioProjects/Hello/app/src/main/res/layout/activity_main_activity10_view10.xml" value="0.33967391304347827" />
+        <entry key="..\:/Users/kj/AndroidStudioProjects/Hello/app/src/main/res/layout/activity_main_activity10_view2.xml" value="0.23645833333333333" />
+        <entry key="..\:/Users/kj/AndroidStudioProjects/Hello/app/src/main/res/layout/activity_main_activity10_view3.xml" value="0.34270833333333334" />
+        <entry key="..\:/Users/kj/AndroidStudioProjects/Hello/app/src/main/res/layout/activity_main_activity9_view1.xml" value="0.33" />
+        <entry key="..\:/Users/kj/AndroidStudioProjects/Hello/app/src/main/res/layout/activity_main_activity9_view2.xml" value="0.34791666666666665" />
+        <entry key="..\:/Users/kj/AndroidStudioProjects/Hello/app/src/main/res/layout/test.xml" value="0.25" />
+        <entry key="..\:/Users/kj/AndroidStudioProjects/Hello/app/src/main/res/layout/test2.xml" value="0.2677083333333333" />
+        <entry key="..\:/Users/kj/AndroidStudioProjects/Hello/app2/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Users/kj/AndroidStudioProjects/Hello/app2/src/main/res/layout/activity_main2.xml" value="0.325" />
+        <entry key="..\:/Users/kj/AndroidStudioProjects/Hello/app2/src/main/res/layout/activity_main2_1.xml" value="0.34791666666666665" />
+        <entry key="..\:/Users/kj/AndroidStudioProjects/Hello/app2/src/main/res/layout/activity_main2_2.xml" value="0.19010416666666666" />
+        <entry key="..\:/Users/kj/AndroidStudioProjects/Hello/app2/src/main/res/layout/activity_main2_3.xml" value="0.34479166666666666" />
+        <entry key="..\:/Users/kj/AndroidStudioProjects/Hello/app2/src/main/res/layout/activity_main2_4.xml" value="0.22" />
+        <entry key="..\:/Users/kj/AndroidStudioProjects/Hello/app2/src/main/res/layout/activity_main2_5.xml" value="0.3229166666666667" />
+        <entry key="..\:/Users/kj/AndroidStudioProjects/Hello/app2/src/main/res/layout/activity_main_activity3_frame.xml" value="0.1" />
+        <entry key="..\:/Users/kj/AndroidStudioProjects/Hello/app2/src/main/res/layout/activity_main_activity3_frame2.xml" value="0.33" />
+        <entry key="..\:/Users/kj/AndroidStudioProjects/Hello/module1/src/main/res/layout/activity_module.xml" value="0.20677083333333332" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.34270833333333334" />
+      </ProjectState>
+    </option>
+  </component>
+</project>

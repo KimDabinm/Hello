@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <!-- orientation : 방향
+        - vertical : 세로
+        - horizontal : 가로-->
+
+    <!-- EditText : 사용자에게 데이터를 입력 받을 때 사용하는 뷰
+    : 기본(한 줄 입력창) // 사용자가 엔터클릭 시 여러줄로 늘어남-->
+    <!-- lines : 처음 화면에 보이고 싶은 줄 설정
+         maxLines : 처음 화면에 보일 때는 1줄, 최대로 늘어나는 줄 크기를 정함
+         inputType : 1. 글을 입력할 때 키보드의 모드를 제어하기
+                     2. 사용자에게 한 줄 혹은 여러 줄 입력을 강제하기 p.124
+         gravity : 입력할 글의 위치를 지정 / center, left, right   -->
+
+    <EditText
+        android:id="@+id/editTextPassword"
+        android:layout_height="wrap_content"
+        android:ems="15"
+        android:gravity="center"
+        android:hint="패스워드 입력"
+        android:inputType="textPassword" />
+
+    <EditText
+        android:id="@+id/editTextTextEmailAddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="이메일 입력"
+        android:inputType="textEmailAddress" />
+
+
+</LinearLayout>

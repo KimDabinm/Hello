@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity3_frame"
+
+    >
+
+    <!-- 프레임 레이아웃 : 여러가지의 뷰들을 겹쳐서 보여줌
+            : 뷰가 포함된 순서대로 배치되어 맨 마지막에 포함된 뷰가 가장 위에 나타남
+                * 가장 마지막에 포함된 뷰의 크기가 크다면??
+                    : 그전에 배치한 뷰들은 전체 가려지고, 마지막 뷰만 보이게 함
+
+          -목적 : 같은 영역에 여러 뷰를 겹치게 한 다음,
+                 한 순간에 하나의 뷰만 보이도록 하기 위함
+
+          - 화면에 안 보이게 설정
+           1. gone(크기를 지정하지 못함)
+           2. invisible(화면에는 안 보이지만, 크기는 확보함
+                android:visibility="gone"
+          -->
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textViewA"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:background="#F0997D"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:gravity="right|bottom"
+        android:textSize="70sp"
+        android:visibility="invisible"
+        android:padding="20sp"
+        android:text="A" />
+
+    <TextView
+        android:id="@+id/textViewB"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:background="#FAD6A5"
+        android:gravity="right|bottom"
+        android:padding="20sp"
+        android:text="B"
+        android:textColor="#000000"
+        android:textSize="60sp"
+       />
+
+    <TextView
+        android:id="@+id/textViewC"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="#FAECD6"
+        android:gravity="right|bottom"
+        android:padding="20sp"
+        android:text="C"
+        android:textColor="#000000"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+
+    <Button
+        android:id="@+id/backBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="이전"
+        android:layout_margin="60dp"
+        android:layout_gravity="left|bottom"
+        />
+
+    <Button
+        android:id="@+id/nextBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="다음"
+        android:layout_margin="60dp"
+        android:layout_gravity="right|bottom"/>
+</FrameLayout>

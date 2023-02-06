@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.hello">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Hello">
+
+        <activity
+            android:name=".MainActivity10_view2"
+            android:exported="true" />
+
+        <activity
+            android:name=".MainActivity10_view1"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+
+        <activity
+            android:name=".MainActivity10"
+            android:exported="true">
+        </activity>
+
+        <activity
+            android:name=".MainActivity9_view2"
+            android:exported="true" />
+
+        <activity
+            android:name=".MainActivity9_view1"
+            android:exported="true" >
+
+        </activity>
+
+        <activity
+            android:name=".Main8Activity"
+            android:exported="true" />
+
+        <activity
+            android:name=".MainActivity8_1"
+            android:exported="true" />
+
+        <!--
+         앱에 액티비티 컴포넌트를 등록하기 위한 태그
+        만약에 앱에 3개의 액티비티가 있다면 - activity 태그를 총 3 개 정의해야 함
+        -->
+
+        <activity
+            android:name=".MainActivity"
+            android:exported="true" />
+
+        <activity
+            android:name=".MainActivity2"
+            android:exported="true" /> <!-- <intent-filter> -->
+        <!-- <action android:name="android.intent.action.MAIN" /> -->
+        <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+        <!-- </intent-filter> -->
+
+        <activity
+            android:name=".MainActivity3"
+            android:exported="true" />
+
+        <activity
+            android:name=".MainActivity4"
+            android:exported="true" />
+
+        <activity
+            android:name=".MainActivity5"
+            android:exported="true" />
+
+        <activity
+            android:name=".MainActivity6"
+            android:exported="true">
+
+            <!-- <intent-filter> -->
+            <!-- <action android:name="android.intent.action.MAIN" /> -->
+            <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+            <!-- </intent-filter> -->
+        </activity>
+
+        <activity
+            android:name=".MainActivity7"
+            android:exported="true" />
+    </application>
+
+</manifest>

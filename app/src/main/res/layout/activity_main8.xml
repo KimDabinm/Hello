@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main8Activity">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.37">
+
+        <CheckBox
+            android:id="@+id/java"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginStart="70dp"
+            android:text="자바" />
+
+        <CheckBox
+            android:id="@+id/python"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginStart="10dp"
+            android:text="파이썬" />
+
+        <CheckBox
+            android:id="@+id/C"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginEnd="50dp"
+
+            android:text="C언어" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="[배우고 싶은 언어를 선택하세요]"
+        android:textColor="#000000"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.718" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/submit"
+        android:layout_width="94dp"
+        android:layout_height="56dp"
+        android:text="제출"
+        android:textSize="20sp"
+        android:textStyle="bold"
+
+        android:background="@drawable/button2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.504"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.525" />
+
+    <TextView
+        android:id="@+id/select"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:hint="선택한 언어"
+        android:textColor="#292626"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.511"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.637" />
+</androidx.constraintlayout.widget.ConstraintLayout>
